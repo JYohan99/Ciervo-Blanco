@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(43, 9, 65);
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}
+
+div {
+    text-decoration: center;
+    margin: 0 30%;
+    width: 40%;
+}
+
+a:link {
+    text-decoration: none;
+}

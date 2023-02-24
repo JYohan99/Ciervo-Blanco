@@ -1,0 +1,314 @@
+body {
+    background-color: rgb(43, 9, 65);
+}
+
+body::-webkit-scrollbar {
+    width: 0;
+}
+
+/*-----------------------------------------Indice parpadeo----------------------------------------*/
+.indice {
+    text-align: center;
+    border: 5px solid #1086e8;
+    width: 300px;
+    border-radius: 20px;
+    margin: 5% 35%;
+    animation: border-flicker 2s linear infinite;
+}
+
+.indice h1 {
+    color: #00a9fe;
+    font-family: "Raleway", sans-serif;
+    margin: 20px;
+    font-size: 64px;
+    letter-spacing: 10px;
+    animation: text-flicker 3s linear infinite;
+}
+
+#offset {
+    animation: letter-flicker 2s linear infinite;
+}
+
+@keyframes text-flicker {
+    0% {
+        opacity: 0.1;
+        text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
+    }
+
+    2% {
+        opacity: 1;
+        text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
+    }
+
+    8% {
+        opacity: 0.1;
+        text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
+    }
+
+    9% {
+        opacity: 1;
+        text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
+    }
+
+    12% {
+        opacity: 0.1;
+        text-shadow: 0px 0px rgba(242, 22, 22, 1);
+    }
+
+    20% {
+        opacity: 1;
+        text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
+    }
+
+    25% {
+        opacity: 0.3;
+        text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
+    }
+
+    30% {
+        opacity: 1;
+        text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
+    }
+
+    70% {
+        opacity: 0.7;
+        text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
+    }
+
+    72% {
+        opacity: 0.2;
+        text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
+    }
+
+    77% {
+        opacity: 0.9;
+        text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
+    }
+
+    100% {
+        opacity: 0.9;
+        text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
+    }
+}
+
+@keyframes border-flicker {
+    0% {
+        opacity: 0.1;
+        -webkit-box-shadow: 0px 0px 78px 4px rgba(16, 134, 232, 0.73);
+        -moz-box-shadow: 0px 0px 78px 4px rgba(16, 134, 232, 0.73);
+        box-shadow: 0px 0px 78px 4px rgba(16, 134, 232, 0.73);
+    }
+
+    2% {
+        opacity: 1;
+        -webkit-box-shadow: 0px 0px 78px 4px rgba(16, 134, 232, 0.73);
+        -moz-box-shadow: 0px 0px 78px 4px rgba(16, 134, 232, 0.73);
+        box-shadow: 0px 0px 78px 4px rgba(16, 134, 232, 0.73);
+    }
+
+    4% {
+        opacity: 0.1;
+        -webkit-box-shadow: 0px 0px 78px 4px rgba(16, 134, 232, 0.73);
+        -moz-box-shadow: 0px 0px 78px 4px rgba(16, 134, 232, 0.73);
+        box-shadow: 0px 0px 78px 4px rgba(16, 134, 232, 0.73);
+    }
+
+    8% {
+        opacity: 1;
+        -webkit-box-shadow: 0px 0px 78px 4px rgba(16, 134, 232, 0.73);
+        -moz-box-shadow: 0px 0px 78px 4px rgba(16, 134, 232, 0.73);
+        box-shadow: 0px 0px 78px 4px rgba(16, 134, 232, 0.73);
+    }
+
+    70% {
+        opacity: 0.7;
+        -webkit-box-shadow: 0px 0px 78px 4px rgba(16, 134, 232, 0.73);
+        -moz-box-shadow: 0px 0px 78px 4px rgba(16, 134, 232, 0.73);
+        box-shadow: 0px 0px 78px 4px rgba(16, 134, 232, 0.73);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-box-shadow: 0px 0px 78px 4px rgba(16, 134, 232, 0.73);
+        -moz-box-shadow: 0px 0px 78px 4px rgba(16, 134, 232, 0.73);
+        box-shadow: 0px 0px 78px 4px rgba(16, 134, 232, 0.73);
+    }
+}
+
+@keyframes letter-flicker {
+    0% {
+        opacity: 0.1;
+        text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
+    }
+
+    2% {
+        opacity: 0.1;
+        text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
+    }
+
+    4% {
+        opacity: 1;
+        text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
+    }
+
+    19% {
+        opacity: 1;
+        text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
+    }
+
+    21% {
+        opacity: 0.1;
+        text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
+    }
+
+    23% {
+        opacity: 1;
+        text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
+    }
+
+    80% {
+        opacity: 1;
+        text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
+    }
+
+    83% {
+        opacity: 0.4;
+        text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
+    }
+
+    87% {
+        opacity: 1;
+        text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
+    }
+}
+
+/*---------------------------------------Indice parpadeo Fin--------------------------------------*/
+
+/*--------------------------------------------Contorno--------------------------------------------*/
+.cuadro {
+    position: relative;
+    width: 24%;
+    overflow: hidden;
+    border-radius: 5px;
+    display: inline-flex;
+    margin: 7px 3px;
+}
+
+.cuadro:hover {
+    z-index: 2000;
+}
+
+.cuadro .texto {
+    background-color: rgba(19, 30, 33, 0.4);
+    position: absolute;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.cuadro:hover .texto {
+    background-color: rgba(16, 23, 41, 0);
+}
+
+.cuadro .capitulo {
+    position: absolute;
+    left: -80%;
+    transition: all 0.5s;
+}
+
+.cuadro:hover .capitulo {
+    background-color: #1e4944;
+    left: 0px;
+
+    border-radius: 5px 0 5px 0;
+    z-index: 1000;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 20px;
+    width: 80%;
+    text-align: end;
+    padding: 7px;
+}
+
+.cuadro .titulo {
+    position: absolute;
+    bottom: 0;
+    right: -95%;
+    transition: all 0.5s;
+}
+
+.cuadro:hover .titulo {
+    background-color: #417c74;
+    right: 0px;
+
+    border-radius: 5px 0 5px 0;
+    padding: 5px;
+    z-index: 1000;
+    color: #ffffff;
+    font-size: 15px;
+    width: 80%;
+}
+
+/*------------------------------------------Contorno Fin------------------------------------------*/
+
+/*---------------------------------------Movimiento imagen----------------------------------------*/
+.banner_img_1 {
+    animation: movimiento1 5s linear infinite;
+}
+
+@keyframes movimiento1 {
+    0% {
+        transform: translateY(15px);
+    }
+
+    25% {
+        transform: translateX(-15px);
+    }
+
+    50% {
+        transform: translateY(-15px);
+    }
+
+    75% {
+        transform: translateX(15px);
+    }
+
+    100% {
+        transform: translateY(15px);
+    }
+}
+
+.banner_img_2 {
+    animation: movimiento2 5s linear infinite;
+}
+
+@keyframes movimiento2 {
+    0% {
+        transform: translateY(-15px);
+    }
+
+    25% {
+        transform: translateX(15px);
+    }
+
+    50% {
+        transform: translateY(15px);
+    }
+
+    75% {
+        transform: translateX(-15px);
+    }
+
+    100% {
+        transform: translateY(-15px);
+    }
+}
+
+.banner_img_1:hover,
+.banner_img_2:hover {
+    animation: none;
+}
+
+/*-------------------------------------Movimiento imagen Fin--------------------------------------*/
